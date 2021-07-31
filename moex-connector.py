@@ -4,6 +4,9 @@ import urllib.request
 import json
 import asyncio
 
+# https://iss.moex.com/iss/reference/
+# https://iss.moex.com/iss/engines/stock/markets/bonds/boards/
+
 req = 'http://iss.moex.com/iss/history/engines/%(engine)s/markets/%(market)s/boards/%(board)s/securities.json?date=%(date)s'
 
 
